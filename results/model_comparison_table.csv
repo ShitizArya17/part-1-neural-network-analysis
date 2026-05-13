@@ -1,0 +1,6 @@
+Experiment,Layers,Neurons,Activation,LR,Batch,Test Accuracy,Test AUC-ROC
+Exp 1: Baseline,2,64,relu,0.001,32,0.82,0.956
+Exp 2: More Neurons,2,128,relu,0.001,32,0.8525,0.8608
+Exp 3: Higher LR,2,64,relu,0.01,32,0.8325,0.9048
+Exp 4: Deeper Network,3,64,relu,0.001,32,0.785,0.9065
+Exp 5: Tanh+Large Batch,2,64,tanh,0.001,64,0.39,0.931
